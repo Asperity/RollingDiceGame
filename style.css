@@ -1,0 +1,25 @@
+body {
+    background-color:rgb(28, 35, 41);
+}
+
+h1 {
+    font-size: 36pt;
+    letter-spacing: 3px;
+    text-align: center;
+    color: rgb(10, 2, 126);
+}
+
+#submit {
+    background-color:rgb(65, 12, 12);
+    
+}
+
+#dieForm {
+    font-size: 20pt;
+    color:rgb(39, 65, 80);
+}
+
+#timeForm {
+    font-size: 20pt;
+    color: rgb(39, 65, 80);
+}

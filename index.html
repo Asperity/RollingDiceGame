@@ -14,17 +14,17 @@
     <form method="get" id="form">
         <ul>
             <li>
-                <label for="amount">Amount of die:</label>
-                <input type="number" id="amount" name="amount" min="1" max="3"/>
+                <label id="dieForm" for="amount">Amount of die:</label>
+                <input type="number" id="amount" name="value" min="1" max="3"/>
             </li>
             <li>
-                <label for="time">How many times?</label>
+                <label id="timeForm" for="time">How many times?</label>
                 <input type="number" id="time" name="name" min="1"/>
             </li>
-            <input type="submit" value="Submit">
+            <input id="submit" type="submit" value= "Submit">
         </ul>
     </form>
-    <button onclick="rollDie();" id="dieRoll">Roll Die</button>
+    <button id="dieRoll">Roll Die</button>
     <img id="die1"/>
     <img id="die2"/>
     <img id="die3"/>
