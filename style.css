@@ -23,3 +23,8 @@ h1 {
     font-size: 20pt;
     color: rgb(39, 65, 80);
 }
+
+.face {
+    width: 200px;
+    height: 200px;
+}
